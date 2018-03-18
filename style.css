@@ -4,6 +4,9 @@ h1 {
 }
 
 .robots {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
 }
 
 .head, 
@@ -12,7 +15,7 @@ h1 {
 .right_arm, 
 .left_leg, 
 .right_leg {
-	 background-color: #5f93e8;
+	 background-color: #e8965f;
 }
 
 .head { 
@@ -24,7 +27,7 @@ h1 {
 } 
 
 .eyes {
-	
+	display: flex
 }
 
 .head:hover {
@@ -34,7 +37,6 @@ h1 {
 
 .upper_body { 
     width: 300px;
-    margin: 0 auto; 
 	height: 150px;
 	display: flex; 
 } 
@@ -61,10 +63,9 @@ h1 {
 
 .lower_body { 
     width: 200px; 
-    margin: 0 auto;
     height: 200px;
+    margin: 0 auto;
     display: flex;
-	/* This is another useful property. Hmm what do you think it does?*/
 } 
 
 .left_leg, .right_leg { 
@@ -114,8 +115,8 @@ h1 {
 
 .right_eye { 
 	position: relative; 
-	top: 80px; 
-	left: 140px; 
+	top: 100px; 
+	left: 120px; 
 }
 
 
